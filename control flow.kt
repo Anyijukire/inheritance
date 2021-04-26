@@ -35,10 +35,10 @@ if (guestAge<6){
 }
 fun number(){
     for (num in 1..100)
-        if (num%3==0){
+        if (num%3==0 && num%5!==0){
             println("fizz")
         }
-    else if (num%5==0){
+    else if (num%5==0 && num%3!==0){
         println("Buzz")
         }
     else if (num%5==0 && num%3==0){
